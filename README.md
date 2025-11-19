@@ -1,4 +1,4 @@
-# esp-gate-opener
+
 # ESP Gate Opener
 
 Sistema per aprire e chiudere il cancello utilizzando un **ESP8266/ESP32**, un **modulo relay** e il **telecomando originale BFT**.
