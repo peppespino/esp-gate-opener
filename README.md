@@ -12,7 +12,7 @@ In questo modo:
 
 ---
 
-## 🚀 Funzionalità
+##  Funzionalità
 
 - Apertura/chiusura del cancello tramite Home Assistant
 - Comando da app, automazioni e dashboard
@@ -22,7 +22,7 @@ In questo modo:
 
 ---
 
-## 🔧 Hardware utilizzato
+##  Hardware utilizzato
 
 - **ESP8266** (es. NodeMCU / Wemos D1 Mini) oppure **ESP32**
 - **Modulo relay 1 canale** (5V o compatibile con l’alimentazione scelta)
@@ -35,7 +35,7 @@ In questo modo:
 
 ---
 
-## ⚙️ Come funziona il progetto
+## ⚙️Come funziona il progetto
 
 1. Sul circuito del **telecomando BFT** vengono saldati due fili sui contatti del pulsante di apertura.
 2. Questi due fili vengono collegati al contatto **COM** e **NO** del **relay**.
