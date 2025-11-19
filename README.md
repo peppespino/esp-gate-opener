@@ -61,19 +61,19 @@ esp-gate-opener/
 ```
 
 Come iniziare
-Preparazione del telecomando BFT
+1. Preparazione del telecomando BFT
 Apri il telecomando BFT.
 Individua i contatti del pulsante di apertura.
 Salda due fili sottili sui contatti del pulsante.
-Collegamento al relay
+2. Collegamento al relay
 Collega i due fili del telecomando al relay sui contatti COM e NO.
 Collega il relay all’ESP (pin di controllo, VCC e GND).
-Configurazione ESPHome
-Copia il file YAML presente in esphome/ nel tuo progetto ESPHome.
+3. Configurazione ESPHome
+Copia il file YAML presente nella cartella esphome/ dentro il tuo progetto ESPHome.
 Carica la configurazione sull’ESP8266/ESP32.
-Integrazione con Home Assistant
+4. Integrazione con Home Assistant
 Aggiungi il dispositivo ESPHome a Home Assistant.
 Verifica che il pulsante di apertura funzioni dalla dashboard.
-Test
-Premi il pulsante da Home Assistant.
-Controlla che il cancello risponda come con il telecomando normale.
+5. Test
+Premi il pulsante direttamente da Home Assistant.
+Controlla che il cancello risponda come quando premi il telecomando.
