@@ -1,1 +1,33 @@
+esphome:
+  name: esp-gate-opener
+  friendly_name: Cancello
+
+esp8266:
+  board: d1_mini   # oppure nodemcuv2 se usi NodeMCU
+
+# Wi-Fi
+wifi:
+  ssid: "NOME_WIFI"
+  password: "PASSWORD_WIFI"
+
+# API per Home Assistant
+api:
+  encryption:
+    key: "GENERATED_KEY"
+
+# Permette update OTA
+ota:
+
+logger:
+
+switch:
+  - platform: gpio
+    name: "Apri Cancello"
+    pin: D1        # QUI METTI IL PIN CHE HAI USATO PER IL RELAY
+    id: relay_gate
+    icon: "mdi:gate"
+    restore_mode: always_off
+    on_turn_on:
+      - delay: 300ms
+      - switch.turn_off: relay_gate
 
